@@ -34,6 +34,12 @@ end
 
 group :test do 
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'valid_attribute'
+end
+
+group :test, :development do 
+  gem 'factory_girl_rails'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
